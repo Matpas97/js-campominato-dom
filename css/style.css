@@ -1,0 +1,61 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.text-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-cmp h1 {
+    font-size: 40px;
+}
+.butt button {
+    padding: 5px 45px;
+    background-color: lightgray;
+}
+
+/* Main */ 
+main {
+    background-color:aquamarine;
+}
+
+/* Content */
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width:calc(100% / 10);
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    margin: 0 auto;
+    width: 45%;
+  
+}
+
+.even {
+    background-color: blue;
+}
+.odd {
+    background-color: red;
+}
+/* Footer */
+
+.text-right {  
+   display: flex;
+   margin: 0 auto;
+   width: 60%;
+   align-items: center;
+}
