@@ -29,15 +29,15 @@ for(let i = 1 ; i <= 100 ; i ++) {
     // L' utente puo cliccare su ogni cella 
     boxElement.addEventListener('click',function(){
         console.log('Hai cliccato',i);
-
+console.log(this);
         // La cella cliccata si colora di blu se è pari, di rosso se è dispari
         const isEven = isNumberEven(i);
-
+console.log(isEven);
         if(isEven){
-            boxElement.classList.add('even');
+            this.classList.add('even');
         }
         else{
-            boxElement.classList.add('odd');
+            this.classList.add('odd');
         }
     });
 
